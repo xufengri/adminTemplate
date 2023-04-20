@@ -130,3 +130,27 @@ Vue.directive('english', {
 })
 
 
+/**
+ * 菜单权限字符
+ * @param {Array} value
+ * @returns {Boolean}
+ */
+Vue.directive('hasPermi', {
+  inserted(el, binding, vnode) {
+    const { value } = binding;
+    if(!checkPermi(value)) el.parentNode.removeChild(el);
+  }
+})
+
+/**
+ * 角色权限字符
+ * @param {Array} value
+ * @returns {Boolean}
+ */
+Vue.directive('hasRole', {
+  inserted(el, binding, vnode) {
+    const { value } = binding;
+    if(!checkRole(value)) el.parentNode.removeChild(el);
+  }
+})
+
