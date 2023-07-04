@@ -12,9 +12,6 @@
 
 
 
-### **目前仓库是旧版源码，升级版源码请移步到交流群获取：**<a href="https://gitee.com/MMinter/vue_node_wiki/wikis/vue+node交流群" target="_blank">点击免费获取升级版源码</a>
-
-------
 
 
 
@@ -29,21 +26,11 @@
 
 
 
-## 二、交流群、问题解答入口
-
-- #### 	<a href="https://gitee.com/MMinter/vue_node_wiki/wikis/vue+node交流群" target="_blank">点击加入 问题解答交流社区</a>
-
 ## 三、项目启动
 
 
 
 - ### 		前端页面启动
-
-1. ##### #克隆项目
-
-   ```
-   git https://gitee.com/MMinter/vue_node.git
-   ```
 
 2. ##### #进入目录
 
@@ -98,12 +85,6 @@
 
 - ### 		后端服务启动
 
-
-1. ##### 				#克隆项目（如果已经执行了前端页面启动的克隆，可略过这点）
-
-   ```
-   git clone https://gitee.com/MMinter/vue_node.git
-   ```
 
 2. #####  #进入目录
 
